@@ -3,5 +3,6 @@ CREATE TABLE IF NOT EXISTS requests (
     customer VARCHAR(255) NOT NULL,
     environment VARCHAR(255) NOT NULL,
     remarks TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP   
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
+    # Adding Remote Changes
 );
