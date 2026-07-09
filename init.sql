@@ -5,5 +5,4 @@ CREATE TABLE IF NOT EXISTS requests (
     remarks TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
 # Adding Remote Changes 
-    # Adding Remote new Items changes
 );
