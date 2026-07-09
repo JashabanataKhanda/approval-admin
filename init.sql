@@ -4,5 +4,4 @@ CREATE TABLE IF NOT EXISTS requests (
     environment VARCHAR(255) NOT NULL,
     remarks TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
-    # Adding Something
 );
